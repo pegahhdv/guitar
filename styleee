@@ -1,0 +1,66 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+}
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: relative;
+        display: table;
+        margin: 0 auto;
+    }
+
+        nav ul li {
+            display: table-cell;
+        }
+
+            nav ul li a {
+                padding: 10px 20px;
+                display: block;
+                color: white;
+                text-decoration: none;
+                transition: all 0.3s ease-in-out;
+            }
+
+                nav ul li a:hover {
+                    color: deeppink;
+                }
+
+        nav ul .active a {
+            color: deeppink;
+        }
+
+section {
+    height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+    z-index: 0;
+}
+
+#home {
+    top: 40px;
+}
+
+#words {
+    margin: 0 0 10% 0;
+}
+
+#about {
+}
+
+#contact {
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
